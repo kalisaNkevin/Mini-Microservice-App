@@ -1,11 +1,7 @@
 {
-  "name": "yarn",
+  "name": "client",
   "private": true,
   "version": "0.0.0",
-  "author": {
-    "name": "Kalisa Ngabo kevin",
-    "email": "kalisangabokevin@gmail.com"
-  },
   "type": "module",
   "scripts": {
     "dev": "vite",
