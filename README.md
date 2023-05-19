@@ -23,8 +23,7 @@ This project implements a microservice architecture using Node.js and Express. T
 1. In the root directory, create a `.env` file.
 2. Update the `.env` file with the following configuration parameters:
 
-```plaintext
-# User Service
+## User Service
 USER_SERVICE_PORT=3000
 USER_SERVICE_DB_URL=mongodb://localhost:27017/user_service_db
 
@@ -32,12 +31,12 @@ USER_SERVICE_DB_URL=mongodb://localhost:27017/user_service_db
 PRODUCT_SERVICE_PORT=3001
 PRODUCT_SERVICE_DB_URL=mongodb://localhost:27017/product_service_db
 
-# Order Service
+## Order Service
 ORDER_SERVICE_PORT=3002
 ORDER_SERVICE_DB_URL=mongodb://localhost:27017/order_service_db
 ORDER_SERVICE_REDIS_URL=redis://localhost:6379
 
-# Notification Service
+## Notification Service
 NOTIFICATION_SERVICE_PORT=3003
 NOTIFICATION_SERVICE_REDIS_URL=redis://localhost:6379
 
@@ -110,4 +109,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Thank you for your interest in the Mini Microservice App! We hope this project provides you with a solid foundation for building microservice-based applications using Node.js and Express. We encourage you to explore the code, make improvements, and customize it to suit your specific needs.
 
 If you have any questions or feedback, please don't hesitate to reach out. Happy coding!
-
