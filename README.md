@@ -69,7 +69,6 @@ The API documentation provides details about the available endpoints, request/re
 
 To run tests for all microservices, use the following command:
 
-```bash
 npm test
 
 ## Contributing
